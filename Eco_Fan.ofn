@@ -1,0 +1,704 @@
+Prefix(:=<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9>
+
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AdaptiveSpeedControl>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AirPurification>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AirQualitySensor>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AppControl>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AutomationFeature>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#CarbonFootprint>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#CeilingFan>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EndOfLife>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EnergyEfficiency>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HealthSafetyFeature>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HumiditySensor>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustrialFan>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Installation>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#LifecycleStage>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Maintenance>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ManualControl>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Manufacturer>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Manufacturing>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Material>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#MotionSensor>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#NoiseReduction>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Operation>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Recyclability>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RecyclableMaterial>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RemoteControl>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RenewableEnergyIntegration>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RenewableMaterial>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ScheduledOperation>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Sensor>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SmartFeature>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SustainabilityMetric>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#TableFan>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#TemperatureSensor>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#UserInteraction>))
+Declaration(Class(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#VoiceControl>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#controlledBy>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#featuresHealthSafety>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasAutomationFeatures>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasLifecycleStageDetail>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSmartFeatures>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSustainabilityMetric>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#isManufacturedBy>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#isSmartFeatureOf>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturesFan>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#replacesFan>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#usesSensor>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#utilizesMaterial>))
+Declaration(DataProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#airPurificationEfficiency>))
+Declaration(DataProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#automationFeatureResponseTime>))
+Declaration(DataProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#carbonFootprintValue>))
+Declaration(DataProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#efficiencyScore>))
+Declaration(DataProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#endOfLife>))
+Declaration(DataProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#energyEfficiencyIndex>))
+Declaration(DataProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanID>))
+Declaration(DataProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanNoiseLevel>))
+Declaration(DataProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanPowerRating>))
+Declaration(DataProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanWarrantyPeriod>))
+Declaration(DataProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#installationComplexity>))
+Declaration(DataProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#maintenanceInterval>))
+Declaration(DataProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturerName>))
+Declaration(DataProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#materialRecyclabilityIndex>))
+Declaration(DataProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#materialRenewabilityIndex>))
+Declaration(DataProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#recyclabilityPercentage>))
+Declaration(DataProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#renewableEnergyIntegrationLevel>))
+Declaration(DataProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#sensorAccuracy>))
+Declaration(DataProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#userInteractionMethod>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AirCheckPro>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AnnualCheck>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AutoSmartAdjust>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#BambooFiber>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoFansLtd>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EfficientRunMode>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EnergySaverRating>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#FullRecycleReady>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#GreenFactoryProcess>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#GreenTechVentures>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HumidSense>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#LowCarbonMark>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ManualDialControl>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#MotionGuard>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#PureAirPlus>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#QuickInstall>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#QuietFanTech>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RecycledPlastic>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RecyclingPhase>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RemoteEase>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ScheduleMaster>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SmartFanApp>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SolarPoweredIntegration>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SpeedSense>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#TempDetect>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#VoiceCommandPro>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#controlledBy> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#controlledBy>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#controlledBy> "Shows how the fan is interacted with (App, Remote, Voice, etc.)."@en)
+ObjectPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#controlledBy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>)
+ObjectPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#controlledBy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#UserInteraction>)
+
+# Object Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#featuresHealthSafety> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#featuresHealthSafety>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#featuresHealthSafety> "Indicates which health/safety features are present in a fan."@en)
+ObjectPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#featuresHealthSafety> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>)
+ObjectPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#featuresHealthSafety> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HealthSafetyFeature>)
+
+# Object Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasAutomationFeatures> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasAutomationFeatures>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasAutomationFeatures> "Associates a fan with automation capabilities such as adaptive control."@en)
+ObjectPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasAutomationFeatures> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>)
+ObjectPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasAutomationFeatures> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AutomationFeature>)
+
+# Object Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasLifecycleStageDetail> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasLifecycleStageDetail>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasLifecycleStageDetail> "Describes the lifecycle phase associated with a fan."@en)
+ObjectPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasLifecycleStageDetail> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>)
+ObjectPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasLifecycleStageDetail> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#LifecycleStage>)
+
+# Object Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSmartFeatures> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSmartFeatures>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSmartFeatures> "Connects a fan to its smart automation feature"@en)
+InverseObjectProperties(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSmartFeatures> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#isSmartFeatureOf>)
+ObjectPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSmartFeatures> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>)
+ObjectPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSmartFeatures> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SmartFeature>)
+
+# Object Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSustainabilityMetric> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSustainabilityMetric>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSustainabilityMetric> "Links a fan to relevant sustainability metrics (e.g., carbon footprint)"@en)
+ObjectPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSustainabilityMetric> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>)
+ObjectPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSustainabilityMetric> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SustainabilityMetric>)
+
+# Object Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#isManufacturedBy> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#isManufacturedBy>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#isManufacturedBy> "Connects a fan to the manufacturer that produced it."@en)
+InverseObjectProperties(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#isManufacturedBy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturesFan>)
+ObjectPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#isManufacturedBy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>)
+ObjectPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#isManufacturedBy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Manufacturer>)
+
+# Object Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#isSmartFeatureOf> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#isSmartFeatureOf>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#isSmartFeatureOf> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#isSmartFeatureOf> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SmartFeature>)
+ObjectPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#isSmartFeatureOf> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>)
+
+# Object Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturesFan> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturesFan>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturesFan> "manufacturer produces a fan."@en)
+InverseFunctionalObjectProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturesFan>)
+ObjectPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturesFan> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Manufacturer>)
+ObjectPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturesFan> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>)
+
+# Object Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#replacesFan> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#replacesFan>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#replacesFan> "Represents a newer model that replaces an older fan."@en)
+TransitiveObjectProperty(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#replacesFan>)
+ObjectPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#replacesFan> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>)
+ObjectPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#replacesFan> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>)
+
+# Object Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#usesSensor> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#usesSensor>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#usesSensor> "Links smart features or fans to the sensors they use."@en)
+ObjectPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#usesSensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>)
+ObjectPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#usesSensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Sensor>)
+
+# Object Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#utilizesMaterial> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#utilizesMaterial>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#utilizesMaterial> "Specifies the material used in the fan’s construction"@en)
+ObjectPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#utilizesMaterial> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>)
+ObjectPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#utilizesMaterial> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Material>)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#airPurificationEfficiency> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#airPurificationEfficiency>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#airPurificationEfficiency> "shows air purification efficiency in percentage (decimal)"@en)
+DataPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#airPurificationEfficiency> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AirPurification>)
+DataPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#airPurificationEfficiency> xsd:decimal)
+
+# Data Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#automationFeatureResponseTime> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#automationFeatureResponseTime>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#automationFeatureResponseTime> "shows the value of automation feature response time (miliseconds)"@en)
+DataPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#automationFeatureResponseTime> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AutomationFeature>)
+DataPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#automationFeatureResponseTime> xsd:integer)
+
+# Data Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#carbonFootprintValue> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#carbonFootprintValue>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#carbonFootprintValue> "represent carbon footprint value co2 equivalent (decimal)"@en)
+DataPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#carbonFootprintValue> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#CarbonFootprint>)
+DataPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#carbonFootprintValue> xsd:decimal)
+
+# Data Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#efficiencyScore> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#efficiencyScore>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#efficiencyScore> "efficiency score will be the 5-star rating (decimal)")
+DataPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#efficiencyScore> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Operation>)
+DataPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#efficiencyScore> xsd:decimal)
+
+# Data Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#endOfLife> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#endOfLife>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#endOfLife> "end of life in years. (decimal)")
+DataPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#endOfLife> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EndOfLife>)
+DataPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#endOfLife> xsd:decimal)
+
+# Data Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#energyEfficiencyIndex> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#energyEfficiencyIndex>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#energyEfficiencyIndex> "represent energy efficiency index EER (decimal)"@en)
+DataPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#energyEfficiencyIndex> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EnergyEfficiency>)
+DataPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#energyEfficiencyIndex> xsd:decimal)
+
+# Data Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanID> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanID>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanID> "Indicates fan type ceilingFan , IndustrialFan, TableFan (String)"@en)
+DataPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanID> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>)
+DataPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanID> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanNoiseLevel> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanNoiseLevel>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanNoiseLevel> "Indicates noise level in deibels (decimal)")
+DataPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanNoiseLevel> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>)
+DataPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanNoiseLevel> xsd:decimal)
+
+# Data Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanPowerRating> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanPowerRating>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanPowerRating> "Power Representation in watts (int)"@en)
+DataPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanPowerRating> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>)
+DataPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanPowerRating> xsd:integer)
+
+# Data Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanWarrantyPeriod> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanWarrantyPeriod>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanWarrantyPeriod> "shows warranty period in years (int)"@en)
+DataPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanWarrantyPeriod> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>)
+DataPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanWarrantyPeriod> xsd:int)
+
+# Data Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#installationComplexity> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#installationComplexity>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#installationComplexity> "shows the installation complexiy level e.g simple, moderate, complex (string)"@en)
+DataPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#installationComplexity> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Installation>)
+DataPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#installationComplexity> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#maintenanceInterval> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#maintenanceInterval>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#maintenanceInterval> "shows the maintenance time interval in months (int)")
+DataPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#maintenanceInterval> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Maintenance>)
+DataPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#maintenanceInterval> xsd:integer)
+
+# Data Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturerName> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturerName>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturerName> "represents the name of manufacturer (string)"@en)
+DataPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturerName> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Manufacturer>)
+DataPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturerName> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#materialRecyclabilityIndex> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#materialRecyclabilityIndex>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#materialRecyclabilityIndex> "percentage value of recyclability material (decimal)"@en)
+DataPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#materialRecyclabilityIndex> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RecyclableMaterial>)
+DataPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#materialRecyclabilityIndex> xsd:decimal)
+
+# Data Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#materialRenewabilityIndex> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#materialRenewabilityIndex>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#materialRenewabilityIndex> "shows percentage value of renewable material (decimal)"@en)
+DataPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#materialRenewabilityIndex> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RenewableMaterial>)
+DataPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#materialRenewabilityIndex> xsd:decimal)
+
+# Data Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#recyclabilityPercentage> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#recyclabilityPercentage>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#recyclabilityPercentage> "shows the percentage value of recyclability (decimal)"@en)
+DataPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#recyclabilityPercentage> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Recyclability>)
+DataPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#recyclabilityPercentage> xsd:decimal)
+
+# Data Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#renewableEnergyIntegrationLevel> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#renewableEnergyIntegrationLevel>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#renewableEnergyIntegrationLevel> "shows percentage value of renewable energy integration (decimal)"@en)
+DataPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#renewableEnergyIntegrationLevel> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RenewableEnergyIntegration>)
+DataPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#renewableEnergyIntegrationLevel> xsd:decimal)
+
+# Data Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#sensorAccuracy> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#sensorAccuracy>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#sensorAccuracy> "shows percentage accuracy of sensor (decimal)"@en)
+DataPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#sensorAccuracy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Sensor>)
+DataPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#sensorAccuracy> xsd:float)
+
+# Data Property: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#userInteractionMethod> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#userInteractionMethod>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#userInteractionMethod> "shows the control method for end-user e.g AppControl, ManualControl, RemoteControl, VoiceControl ( string)"@en)
+DataPropertyDomain(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#userInteractionMethod> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#UserInteraction>)
+DataPropertyRange(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#userInteractionMethod> xsd:string)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AdaptiveSpeedControl> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AdaptiveSpeedControl>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AdaptiveSpeedControl> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AutomationFeature>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AirPurification> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AirPurification>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AirPurification> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HealthSafetyFeature>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AirQualitySensor> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AirQualitySensor>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AirQualitySensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Sensor>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AppControl> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AppControl>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AppControl> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#UserInteraction>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AutomationFeature> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AutomationFeature>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AutomationFeature> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SmartFeature>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#CarbonFootprint> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#CarbonFootprint>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#CarbonFootprint> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SustainabilityMetric>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#CeilingFan> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#CeilingFan>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#CeilingFan> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EndOfLife> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EndOfLife>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EndOfLife> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#LifecycleStage>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EnergyEfficiency> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EnergyEfficiency>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EnergyEfficiency> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SustainabilityMetric>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan> owl:Thing)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HealthSafetyFeature> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HealthSafetyFeature>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HealthSafetyFeature> owl:Thing)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HumiditySensor> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HumiditySensor>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HumiditySensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Sensor>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustrialFan> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustrialFan>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustrialFan> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Installation> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Installation>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Installation> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#LifecycleStage>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#LifecycleStage> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#LifecycleStage>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#LifecycleStage> owl:Thing)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Maintenance> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Maintenance>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Maintenance> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#LifecycleStage>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ManualControl> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ManualControl>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ManualControl> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#UserInteraction>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Manufacturer> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Manufacturer>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Manufacturer> owl:Thing)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Manufacturing> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Manufacturing>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Manufacturing> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#LifecycleStage>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Material> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Material>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Material> owl:Thing)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#MotionSensor> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#MotionSensor>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#MotionSensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Sensor>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#NoiseReduction> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#NoiseReduction>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#NoiseReduction> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HealthSafetyFeature>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Operation> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Operation>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Operation> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#LifecycleStage>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Recyclability> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Recyclability>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Recyclability> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SustainabilityMetric>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RecyclableMaterial> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RecyclableMaterial>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RecyclableMaterial> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Material>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RemoteControl> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RemoteControl>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RemoteControl> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#UserInteraction>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RenewableEnergyIntegration> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RenewableEnergyIntegration>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RenewableEnergyIntegration> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SustainabilityMetric>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RenewableMaterial> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RenewableMaterial>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RenewableMaterial> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Material>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ScheduledOperation> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ScheduledOperation>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ScheduledOperation> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AutomationFeature>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Sensor> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Sensor>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Sensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SmartFeature>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SmartFeature> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SmartFeature>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SmartFeature> owl:Thing)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SustainabilityMetric> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SustainabilityMetric>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SustainabilityMetric> owl:Thing)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#TableFan> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#TableFan>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#TableFan> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Fan>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#TemperatureSensor> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#TemperatureSensor>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#TemperatureSensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Sensor>)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#UserInteraction> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#UserInteraction>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#UserInteraction> owl:Thing)
+
+# Class: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#VoiceControl> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#VoiceControl>)
+
+SubClassOf(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#VoiceControl> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#UserInteraction>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AirCheckPro> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AirCheckPro>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AirQualitySensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AirCheckPro>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#isSmartFeatureOf> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AirCheckPro> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#isSmartFeatureOf> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AirCheckPro> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#sensorAccuracy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AirCheckPro> "98.5"^^xsd:float)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AnnualCheck> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AnnualCheck>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Maintenance> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AnnualCheck>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasLifecycleStageDetail> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AnnualCheck> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#maintenanceInterval> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AnnualCheck> "12"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AutoSmartAdjust> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AutoSmartAdjust>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AutomationFeature> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AutoSmartAdjust>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#usesSensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AutoSmartAdjust> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HumidSense>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#usesSensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AutoSmartAdjust> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#TempDetect>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#automationFeatureResponseTime> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AutoSmartAdjust> "250"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#sensorAccuracy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AutoSmartAdjust> "98.0"^^xsd:float)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#BambooFiber> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#BambooFiber>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RenewableMaterial> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#BambooFiber>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#utilizesMaterial> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#BambooFiber> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#utilizesMaterial> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#BambooFiber> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#materialRecyclabilityIndex> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#BambooFiber> "92.0"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#materialRenewabilityIndex> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#BambooFiber> "85.0"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro> "A ceiling fan model designed for energy efficiency and smart functionality"@en)
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#CeilingFan> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#featuresHealthSafety> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#PureAirPlus>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasAutomationFeatures> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AutoSmartAdjust>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSmartFeatures> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AirCheckPro>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSustainabilityMetric> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EnergySaverRating>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#isManufacturedBy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoFansLtd>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#utilizesMaterial> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#BambooFiber>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#carbonFootprintValue> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro> "10.5"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#energyEfficiencyIndex> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro> "0.90"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanID> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro> "ECP-2025-A")
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanNoiseLevel> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro> "28.0"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanPowerRating> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro> "50"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanWarrantyPeriod> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro> "5"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturerName> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro> "EcoFans Ltd")
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#userInteractionMethod> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro> "App")
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoFansLtd> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoFansLtd>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Manufacturer> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoFansLtd>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturesFan> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoFansLtd> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturesFan> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoFansLtd> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturerName> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoFansLtd> "EcoFans Ltd")
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#materialRecyclabilityIndex> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoFansLtd> "95.0"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#materialRenewabilityIndex> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoFansLtd> "90.0"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#TableFan> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#featuresHealthSafety> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#PureAirPlus>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasLifecycleStageDetail> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EfficientRunMode>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSmartFeatures> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AirCheckPro>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSustainabilityMetric> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SolarPoweredIntegration>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#isManufacturedBy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoFansLtd>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#utilizesMaterial> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#BambooFiber>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#airPurificationEfficiency> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze> "90.0"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#energyEfficiencyIndex> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze> "0.88"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanID> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze> "ETB-1080")
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanNoiseLevel> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze> "25.0"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanPowerRating> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze> "35"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanWarrantyPeriod> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze> "4"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturerName> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze> "EcoFans Ltd")
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#recyclabilityPercentage> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze> "100.0"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EfficientRunMode> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EfficientRunMode>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Operation> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EfficientRunMode>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasLifecycleStageDetail> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EfficientRunMode> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasLifecycleStageDetail> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EfficientRunMode> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#efficiencyScore> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EfficientRunMode> "5"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EnergySaverRating> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EnergySaverRating>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EnergyEfficiency> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EnergySaverRating>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSustainabilityMetric> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EnergySaverRating> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSustainabilityMetric> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EnergySaverRating> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSustainabilityMetric> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EnergySaverRating> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#energyEfficiencyIndex> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EnergySaverRating> "0.9"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#FullRecycleReady> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#FullRecycleReady>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Recyclability> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#FullRecycleReady>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSustainabilityMetric> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#FullRecycleReady> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSustainabilityMetric> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#FullRecycleReady> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#recyclabilityPercentage> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#FullRecycleReady> "100"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#GreenFactoryProcess> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#GreenFactoryProcess>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Manufacturing> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#GreenFactoryProcess>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasLifecycleStageDetail> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#GreenFactoryProcess> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#materialRenewabilityIndex> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#GreenFactoryProcess> "95"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#GreenTechVentures> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#GreenTechVentures>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Manufacturer> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#GreenTechVentures>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturesFan> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#GreenTechVentures> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturerName> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#GreenTechVentures> "GreenTech Ventures")
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#materialRecyclabilityIndex> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#GreenTechVentures> "95.0"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#materialRenewabilityIndex> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#GreenTechVentures> "80.0"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HumidSense> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HumidSense>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HumiditySensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HumidSense>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#usesSensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HumidSense> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#usesSensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HumidSense> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#usesSensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HumidSense> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#sensorAccuracy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HumidSense> "97.5"^^xsd:float)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustrialFan> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#featuresHealthSafety> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#QuietFanTech>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasAutomationFeatures> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ScheduleMaster>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasLifecycleStageDetail> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AnnualCheck>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSmartFeatures> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#MotionGuard>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#isManufacturedBy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#GreenTechVentures>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#usesSensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HumidSense>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#utilizesMaterial> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RecycledPlastic>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#carbonFootprintValue> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo> "20.0"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanID> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo> "IMT-3040")
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanNoiseLevel> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo> "40.5"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanPowerRating> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo> "120"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanWarrantyPeriod> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo> "3"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#manufacturerName> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo> "GreenTech Ventures")
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#renewableEnergyIntegrationLevel> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo> "50.0"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#sensorAccuracy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo> "97.0"^^xsd:float)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#LowCarbonMark> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#LowCarbonMark>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#CarbonFootprint> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#LowCarbonMark>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSustainabilityMetric> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#LowCarbonMark> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSustainabilityMetric> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#LowCarbonMark> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#carbonFootprintValue> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#LowCarbonMark> "18.5"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ManualDialControl> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ManualDialControl>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ManualControl> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ManualDialControl>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#controlledBy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ManualDialControl> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#controlledBy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ManualDialControl> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#userInteractionMethod> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ManualDialControl> "Manual")
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#MotionGuard> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#MotionGuard>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#MotionSensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#MotionGuard>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSmartFeatures> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#MotionGuard> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSmartFeatures> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#MotionGuard> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#usesSensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#MotionGuard> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#usesSensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#MotionGuard> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#sensorAccuracy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#MotionGuard> "96.0"^^xsd:float)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#PureAirPlus> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#PureAirPlus>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AirPurification> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#PureAirPlus>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#featuresHealthSafety> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#PureAirPlus> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#featuresHealthSafety> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#PureAirPlus> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#usesSensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#PureAirPlus> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AirCheckPro>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#airPurificationEfficiency> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#PureAirPlus> "99.0"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#QuickInstall> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#QuickInstall>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#Installation> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#QuickInstall>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#featuresHealthSafety> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#QuickInstall> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#featuresHealthSafety> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#QuickInstall> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#installationComplexity> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#QuickInstall> "simple")
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#QuietFanTech> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#QuietFanTech>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#NoiseReduction> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#QuietFanTech>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#featuresHealthSafety> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#QuietFanTech> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#featuresHealthSafety> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#QuietFanTech> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#fanNoiseLevel> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#QuietFanTech> "22.0"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RecycledPlastic> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RecycledPlastic>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RecyclableMaterial> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RecycledPlastic>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#utilizesMaterial> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RecycledPlastic> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#materialRecyclabilityIndex> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RecycledPlastic> "95.0"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#materialRenewabilityIndex> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RecycledPlastic> "66.0"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RecyclingPhase> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RecyclingPhase>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EndOfLife> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RecyclingPhase>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasLifecycleStageDetail> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RecyclingPhase> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#endOfLife> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RecyclingPhase> "5"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RemoteEase> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RemoteEase>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RemoteControl> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RemoteEase>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#controlledBy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RemoteEase> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#controlledBy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RemoteEase> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#userInteractionMethod> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RemoteEase> "Remote")
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ScheduleMaster> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ScheduleMaster>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ScheduledOperation> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ScheduleMaster>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasAutomationFeatures> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ScheduleMaster> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#IndustryMaxTurbo>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#automationFeatureResponseTime> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#ScheduleMaster> "250"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SmartFanApp> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SmartFanApp>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AppControl> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SmartFanApp>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#controlledBy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SmartFanApp> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#controlledBy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SmartFanApp> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#userInteractionMethod> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SmartFanApp> "App")
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SolarPoweredIntegration> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SolarPoweredIntegration>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#RenewableEnergyIntegration> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SolarPoweredIntegration>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSustainabilityMetric> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SolarPoweredIntegration> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#hasSustainabilityMetric> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SolarPoweredIntegration> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoTableBreeze>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#renewableEnergyIntegrationLevel> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SolarPoweredIntegration> "80.0"^^xsd:decimal)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SpeedSense> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SpeedSense>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#AdaptiveSpeedControl> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SpeedSense>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#usesSensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SpeedSense> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#HumidSense>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#usesSensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SpeedSense> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#TempDetect>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#automationFeatureResponseTime> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SpeedSense> "200"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#sensorAccuracy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#SpeedSense> "97.5"^^xsd:float)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#TempDetect> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#TempDetect>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#TemperatureSensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#TempDetect>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#usesSensor> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#TempDetect> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#EcoCeilPro>)
+DataPropertyAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#sensorAccuracy> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#TempDetect> "98.0"^^xsd:float)
+
+# Individual: <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#VoiceCommandPro> (<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#VoiceCommandPro>)
+
+ClassAssertion(<http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#VoiceControl> <http://www.semanticweb.org/pmyls/ontologies/2025/3/untitled-ontology-9#VoiceCommandPro>)
+
+
+)
